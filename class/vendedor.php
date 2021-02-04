@@ -28,8 +28,6 @@ class Vendedor{
             UPDATE GVA23 SET INHABILITA = 0 WHERE COD_VENDED = '".$cod."'
         END
         ";
-
-        return $sqlInsertaVended;
         
         $servidor = $conn['SERVIDOR'];
         $conexion = array( "Database"=>$conn['Database'], "UID"=>"sa", "PWD"=>"Axoft1988");
